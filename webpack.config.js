@@ -1,24 +1,27 @@
-var webpack = require('webpack');  
+const webpack = require('webpack');  
 module.exports = {  
-  entry: [
-    "./js/app.js"
-  ],
+  entry: {
+    main: "./js/app.js"
+  },
   output: {
     path: __dirname + '/static',
     filename: "bundle.js"
   },
-  module: {
-    rules: [
-      {
-        test: /\.js?$/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['es2015', 'react']
-        },
-        exclude: /node_modules/
-      }
-    ]
+    resolve: {
+      extensions: [".js", ".jsx", ".css"]
   },
-  plugins: [
-  ]
+
+  module: {
+      rules: [
+          {
+              test: /\.(js|jsx)?/,
+              exclude: /node_modules/,
+              use: ["babel-loader" ]    
+          },
+          {
+              test: /\.css$/,
+              use: ["style-loader", "css-loader"]
+          }
+      ]
+  },
 };
