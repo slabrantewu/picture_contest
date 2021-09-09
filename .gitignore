@@ -3,3 +3,4 @@ venv
 node_modules
 static/bundle.js
 /.idea
+/static/bundle.js.LICENSE.txt
