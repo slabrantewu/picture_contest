@@ -2,7 +2,7 @@ const webpack = require('webpack');
 module.exports = {
     mode: 'development',
     entry: {
-        main: "./js/app.js"
+        main: "./js/app.jsx"
     },
     output: {
         path: __dirname + '/static',
