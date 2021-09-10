@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress --mode=production --config webpack.config.js",
     "dev-build": "webpack --progress --mode=development --config webpack.config.js",
+    "dev-watch": "webpack --watch --mode=development --config webpack.config.js",
     "start": "python app.py"
   },
   "author": "",

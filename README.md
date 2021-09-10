@@ -12,7 +12,7 @@ pip install -r requirements.txt
 npm install -g webpack; npm install
 ```
 
-Then in two separate tabs run `python app.py` and `webpack --watch`. Make edits to `js/Hello.jsx` and `app.py` to edit the frontend and backend, respectively.
+Then in two separate tabs run `python app.py` and `webpack --watch`. Make edits to `js/Menu.jsx` and `app.py` to edit the frontend and backend, respectively.
 
 These steps are explained in more detail below.
 
@@ -49,7 +49,7 @@ npm install
 
 ## Development
 
-The entry point for the app is in `js/app.jsx`. The starter React component is `js/Hello.jsx`. Editing this file is a good place to start.
+The entry point for the app is in `js/app.jsx`. The starter React component is `js/Menu.jsx`. Editing this file is a good place to start.
 
 While developing on the frontend, run `webpack --watch` to keep re-compiling your JavaScript code.
 
