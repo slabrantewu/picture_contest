@@ -1,3 +1,7 @@
+New stuff:
+[Wireframe](https://whimsical.com/picture-contest-G3b9n9xjcVCJgVHpqcmHEE)
+
+
 
 # React + Flask starter kit
 
